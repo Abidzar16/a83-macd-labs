@@ -29,7 +29,7 @@
     $host = "dicoding-server-abi.database.windows.net";
     $user = "dicoding";
     $pass = "Arcana16.";
-    $db = "[dbo].[Registration]";
+    $db = "dicoding_db";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
